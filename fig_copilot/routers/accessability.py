@@ -1,7 +1,7 @@
 from fastapi import APIRouter, UploadFile, File, HTTPException
 from fastapi.responses import JSONResponse
 
-from ..main import client
+from ..config import client
 from ..utils import encode_image
 
 router = APIRouter(prefix="/accessability", tags=["accessability"])

@@ -1,6 +1,5 @@
-from fastapi import APIRouter, Depends
-
-from ..main import client
+from fastapi import APIRouter
+from ..config import client
 
 router = APIRouter(prefix="/chat", tags=["chat"])
 
