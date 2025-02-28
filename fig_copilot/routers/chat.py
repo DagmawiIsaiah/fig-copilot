@@ -1,9 +1,9 @@
 from fastapi import APIRouter
 from ..config import client
 
-router = APIRouter(prefix="/chat", tags=["chat"])
+router = APIRouter(prefix="/chat", tags=["Chat"])
 
-@router.post("/chat")
+@router.post("/")
 async def chat(prompt: str):
     chat_completion = client.chat.completions.create(
         model="grok-2-latest",
