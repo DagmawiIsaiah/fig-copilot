@@ -41,3 +41,8 @@ poetry install
 ```bash
 fastapi dev fig_copilot/main.py
 ```
+
+
+FastAPI backend for Function2 frontend project can be found here: https://github.com/DagmawiIsaiah/function2.git
+
+More update comming soon
